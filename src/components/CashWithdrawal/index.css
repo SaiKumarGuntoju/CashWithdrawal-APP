@@ -1,0 +1,64 @@
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 30%;
+  height: 90%;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  color: red;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 200px;
+  background-color: #c7d2fe;
+  margin-right: 20px;
+}
+.name {
+  color: #d4d2db;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.your-bal-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.balance-name {
+  color: #585076;
+  font-size: 30px;
+  font-family: roboto;
+}
+.balance-amount {
+  color: #ffffff;
+}
+.balance-in-rupees {
+  color: #585076;
+}
+
+.withdraw {
+  color: #ffffff;
+  font-size: 24px;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 20px;
+}
+
+.unordered-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
